@@ -6,9 +6,7 @@ public class Account {
 	private double balance;//New Comment for test
 	private  String name;
 	
-	public Account(double Balance) {
-		this("unknow", Balance);
-	}
+	
 	public Account(String name, double balance) {
 		this.name = name;
 		this.balance = balance;
